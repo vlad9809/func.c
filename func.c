@@ -66,3 +66,4 @@ printf("Символ не найден\n");
    printf ("src new: %s\n",src);
 
 }
+// ghfjgk
