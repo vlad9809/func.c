@@ -22,7 +22,12 @@ int main (void)
    memcpy(dest, src2, strlen(src2)+1);
    printf("After memcpy dest = %s\n", dest);
 
+ char str [11]="0123456789";
 
+   //Определение длины строки и вывод результата на консоль
+   printf ("Длина строки «%s» - %d символов\n", str, strlen (str) );
+
+   return 0;
 /*
   printf( "The string: %s\n", str1 );
   memcpy( str1 + 2, str1, 2 );
@@ -62,8 +67,7 @@ printf("Символ не найден\n");
    if (sym != NULL)
       sym[0]='!';
 
-   // Вывод исходного массива
+   // Вывод исходного массива vv
    printf ("src new: %s\n",src);
 
 }
-// ghfjgk
